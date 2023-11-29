@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaishali | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/bb88b873a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" alt="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h3>Hello, I'm</h3>
+          <h1><span>Vaishali Kumari</span></h1>
+          <p>
+            Hey Everyone, I am Full Stack Java Developer and I have skills
+            <br />Like HTML CSS JavaScript ReactJS Redux Hooks Java SpringBoot
+            <br />Hibernate And Thymeleaf.
+          </p>
+          <a
+            href="/images/Resume.pdf"
+            download
+            class="btn btn2"
+            style="font-size: 20px"
+            >Download CV</a
+          >
+          <div class="social-icons" style="margin: 0%; margin-left: 2%">
+            <a href="https://www.linkedin.com/in/vaishali-kumari-069b95239"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/vaishali22071997"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="mailto: kvaishali655@gmail.com"
+              ><i class="fa-sharp fa-solid fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------About------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br />
+            <p>
+              I am Vaishali Kumari <br />
+
+              * I have completed my MCA in 2023.<br />
+              * I'm willing to learn about new technology. <br />
+              * I'm looking forward to work as a Full Stack Java Developer.<br />
+              * Strong Data Structure & Algorithm concept and Enjoy Programming
+              Challenges.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('certificates')">
+                Certificates
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Frontend Development</span><br />HTML, CSS, Javascript,
+                  Tailwind CSS, ReactJs , Vite.
+                </li>
+                <li>
+                  <span>Backend Development</span> <br />Java, Spring Framework,
+                  Spring Boot, Hibernate, Thymeleaf, Spring MVC, Spring Security
+                  Microservices.
+                </li>
+                <li><span>Database</span><br />MySQL</li>
+                <li>
+                  <span>Other</span><br />Operating System, Computer Network
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Oct,2023</span><br />Intership at CodSoft as Java
+                  Programming
+                </li>
+                <li>
+                  <span>Dec,2023</span><br />Intership at Bharat Intern as Full
+                  Stack Developer
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023</span><br />MCA From Patliputra University.</li>
+                <li><span>2020</span><br />Bsc-IT From Magadh University.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="certificates">
+              <ul>
+                <li>
+                  <span>
+                    Full Stack Java Developer - Java + JSP + Restful WS +Spring </span
+                  ><br />Udemy |
+                  <a
+                    href="https://drive.google.com/file/d/1picjNQVpn6nO_pmdj8Lm_W69dTuADA4A/view?usp=drive_link"
+                    ><i
+                      class="fa-sharp fa-solid fa-arrow-up-right-from-square"
+                      style="color: #e7e191"
+                    ></i
+                  ></a>
+                </li>
+
+                <li>
+                  <span> Training on Python Programming </span><br />
+                  Bolt IoT |
+                  <a
+                    href="https://drive.google.com/file/d/135yX13V0_otT7IbOvta43aNxEiG0-34q/view?usp=drive_link"
+                    ><i
+                      class="fa-sharp fa-solid fa-arrow-up-right-from-square"
+                      style="color: #e7e191"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <span>
+                    Java Programming (Internship Completion Certificate) </span
+                  ><br />CodSoft |
+                  <a
+                    href="https://drive.google.com/file/d/1eSmYhwGkFMeOsPA2Og1sKi9Wuy841rVk/view?usp=drive_link"
+                    ><i
+                      class="fa-sharp fa-solid fa-arrow-up-right-from-square"
+                      style="color: #e7e191"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <span> Full Stack Web Development </span><br />PW | Pursuing
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------Services----------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Designer</h2>
+            <pre>
+* I have knowledge about HTML,CSS,
+  JavaScript, ReactJS, Vite, Redux
+  & React Hooks. 
+* HTML, CSS and JavaScript used for 
+  Front-End Developemnt. 
+* ReactJS to build dynamic and 
+  interactive user interfaces, 
+  enhancing user engagement and 
+  providing a modern, efficient, 
+  and scalable development approach.
+* Implement React Hooks and Redux 
+  to manage state effectively, 
+  enabling the creation of robust 
+  and maintainable web applications 
+  with a focus on scalability.
+* Utilize Vite to streamline the 
+  development process, ensuring fast 
+  and efficient web applications with 
+  quick load times and optimal 
+  performance.
+            </pre>
+          </div>
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>Full Stack Java Developer</h2>
+            <pre>
+* Develop end-to-end web applications 
+  using Java for both the back-end 
+  and front-end. 
+* Ensure seamless integration between 
+  server-side logic and user interfaces.
+* Spring Framework to build enterprise
+  -level applications.
+* MySQL use for Database.
+* Design and implement Microservices-
+  based architectures for scalable and 
+  modular applications.
+* Thymeleaf is used on the server side 
+  to generate dynamic HTML pages,
+  incorporating data from the server 
+  into the rendered views. 
+* Hibernate is used for data persistence
+ ,allowing the application to store and 
+  retrieve data from a relational 
+  database.
+            </pre>
+          </div>
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>Java Developer</h2>
+            <pre>
+* Java: Core + Advance 
+* Spring Framework: Spring Boot,
+  Spring MVC,Spring Data JPA,
+  Spring Security. 
+* RESTful API Design: Ability to 
+  design and implement RESTful APIs 
+  using Spring MVC. 
+* Database Integration: Database 
+  integration using Spring Data JPA 
+  or Hibernate. 
+* Knowledge of Relational Database 
+  concepts and SQL. 
+* Microservices Architecture 
+* Maven 
+* Git/Github
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------Project------------------------------->
+    <div id="project">
+      <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/AI_Image_Generator.jpg" />
+            <div class="layer">
+              <h3>AI Image Generator</h3>
+              <p>
+                AI image generator app using an API.This Text to Image Generator
+                uses AI to understand your words and convert them to a unique
+                image each time.
+              </p>
+              <a href="https://github.com/vaishali22071997/AI_Image_Generator"
+                ><i class="fa-brands fa-github" style="color: #0e0f11"></i
+              ></a>
+              <a href="https://ai-image-generator-one-pi.vercel.app/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+            <h1>AI Image Generator</h1>
+          </div>
+
+          <div class="work">
+            <img src="images/movix.png" />
+            <div class="layer">
+              <h3>Movix</h3>
+              <p>
+                Movix is a website that has been developed using ReactJS + Vite,
+                React Redux and SCSS. The website fetches data using the TMDB
+                API, which provides free movie data for the project.
+              </p>
+              <a href="https://github.com/vaishali22071997/Movix"
+                ><i class="fa-brands fa-github" style="color: #0e0f11"></i
+              ></a>
+              <a href="https://movix-five-tau.vercel.app/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+            <h1>Movix</h1>
+          </div>
+
+          <div class="work">
+            <img src="images/music1.png" />
+            <div class="layer">
+              <h3>Music Player</h3>
+              <p>
+                Music Player using DSA with repeat, repeat-one and shuffle mode
+                with volume control and music list feature also present.Data
+                structures used include a Circular Double Linked List.
+              </p>
+              <a href="https://github.com/vaishali22071997/Music_Player"
+                ><i class="fa-brands fa-github" style="color: #0e0f11"></i
+              ></a>
+              <a href="https://music-player-liard-two.vercel.app/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+            <h1>Music Player</h1>
+          </div>
+
+          <div class="work">
+            <img src="images/weather.png" />
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>
+                Weather App build with ReactJS, Vite for efficient development,
+                React Hooks for state management, and OpenWeather API for
+                current weather details of the cities across the world.
+              </p>
+              <a href="https://github.com/vaishali22071997/React_Weather2"
+                ><i class="fa-brands fa-github" style="color: #0e0f11"></i
+              ></a>
+              <a href="https://react-weather2-taupe.vercel.app/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+            <h1>Weather App</h1>
+          </div>
+
+          <div class="work">
+            <img src="images/nirvana.png" />
+            <div class="layer">
+              <h3>Nirvana Indian Cuisine</h3>
+              <p>
+                Dynamic and Responsive Restaurant application using HTML, CSS,
+                and JavaScript.
+              </p>
+              <a
+                href="https://github.com/vaishali22071997/Nirvana_Indian_Cuisine"
+                ><i class="fa-brands fa-github" style="color: #0e0f11"></i
+              ></a>
+              <a
+                href="https://vaishali22071997.github.io/Nirvana_Indian_Cuisine/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+            <h1>Nirvana Indian Cuisine</h1>
+          </div>
+
+          <div class="work">
+            <img src="images/student_registration.png" />
+            <div class="layer">
+              <h3>Student Registration</h3>
+              <p>
+                Student Registration System that streamlines the process of
+                registering and managing student information by using Java,
+                Spring Boot, Hibernate, Thymeleaf, and integrated seamlessly
+                with a MySQL database using JPA.
+              </p>
+              <a href="https://github.com/vaishali22071997/Student_Registration"
+                ><i class="fa-brands fa-github" style="color: #0e0f11"></i
+              ></a>
+            </div>
+            <h1>Student Registration</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------Contact---------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-envelope"></i>
+              kvaishali655@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +91-9065638222</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/vaishali-kumari-069b95239"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/vaishali22071997"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="/images/Resume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © <span>Vaishali Kumari</span> || All Rights Reserved</p>
+       
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
